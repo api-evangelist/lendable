@@ -1,19 +1,47 @@
 aid: lendable
-name: lendable
-description: lendable is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Lendable
+description: Lendable Ltd is a UK consumer lending fintech founded in 2014 and headquartered
+  in London, offering unsecured personal loans directly to borrowers through a fully
+  digital application. The company underwrites with technology and data analytics rather
+  than relying on a credit score alone, describing its approach as looking at all of an
+  applicant's data together to produce a personalised quote in minutes without paper forms
+  or branch visits. Lendable distributes through the major UK price-comparison platforms
+  including ClearScore, Compare the Market, MoneySuperMarket, Experian, TotallyMoney,
+  TransUnion and Go.Compare. It is authorised and regulated by the Financial Conduct
+  Authority (FCA reference 720261, company number 08828186) and is a CIFAS member.
+  Lendable publishes no public developer API or developer portal — its public technical
+  surface is an RFC 9116 security.txt, an llms.txt, and a set of first-party open source
+  PHP/Symfony engineering libraries on Packagist and GitHub.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.lendable.co.uk/meta-icons/open-graph/1200x630.jpg
 url: https://raw.githubusercontent.com/api-evangelist/lendable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - balderton-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Financial Services
+- Lending
+- Personal Loans
+- Consumer Credit
+- Fintech
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,32 @@ maintainers:
 common:
 - type: Website
   url: https://www.lendable.co.uk/
+- type: Login
+  url: https://www.lendable.co.uk/login
+- type: Support
+  url: https://www.lendable.co.uk/help-and-support
+- type: TermsOfService
+  url: https://www.lendable.co.uk/terms
+- type: PrivacyPolicy
+  url: https://www.lendable.co.uk/privacy
+- type: GitHubOrganization
+  url: https://github.com/Lendable
+- type: Packages
+  url: packages/lendable-packages.yml
+- type: WellKnown
+  url: well-known/lendable-well-known.yml
+- type: SecurityTxt
+  url: well-known/lendable-security.txt
+- type: LLMsTxt
+  url: llms/lendable-llms.txt
+- type: Security
+  url: https://www.lendable.co.uk/.well-known/security.txt
+- type: VulnerabilityDisclosure
+  url: security/lendable-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/lendable-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
