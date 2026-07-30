@@ -1,0 +1,156 @@
+generated: '2026-07-19'
+method: searched
+source: https://packagist.org/packages/list.json?vendor=lendable
+notes: |
+  These are Lendable Ltd's first-party OPEN SOURCE PHP libraries published under
+  the `lendable` Packagist vendor and the github.com/Lendable organisation. They
+  are general-purpose Symfony/PHP engineering libraries extracted from Lendable's
+  own platform — they are NOT client SDKs for a Lendable API, because Lendable
+  publishes no public developer API. For that reason this repo intentionally does
+  NOT carry an `SDKs` pointer; the `Packages` pointer reflects what genuinely exists.
+api_client_libraries: false
+registries_probed: [packagist, npm, pypi, maven-central, nuget, pkg.go.dev, rubygems, crates.io]
+packages:
+- language: php
+  registry: packagist
+  name: lendable/composer-license-checker
+  url: https://packagist.org/packages/lendable/composer-license-checker
+  install: composer require lendable/composer-license-checker
+  description: Composer license checker
+  downloads_total: 289566
+  official: true
+  api_client: false
+- language: php
+  registry: packagist
+  name: lendable/clock
+  url: https://packagist.org/packages/lendable/clock
+  install: composer require lendable/clock
+  description: Clock Abstraction
+  downloads_total: 286367
+  official: true
+  api_client: false
+- language: php
+  registry: packagist
+  name: lendable/phpunit-extensions
+  url: https://packagist.org/packages/lendable/phpunit-extensions
+  install: composer require lendable/phpunit-extensions
+  description: Extensions to PHPUnit
+  downloads_total: 141152
+  official: true
+  api_client: false
+- language: php
+  registry: packagist
+  name: lendable/aggregate
+  url: https://packagist.org/packages/lendable/aggregate
+  install: composer require lendable/aggregate
+  description: Lendable Aggregate Library
+  downloads_total: 132353
+  official: true
+  api_client: false
+- language: php
+  registry: packagist
+  name: lendable/json-serializer
+  url: https://packagist.org/packages/lendable/json-serializer
+  install: composer require lendable/json-serializer
+  description: JSON serializer/deserializer with an OOP interface
+  downloads_total: 123296
+  official: true
+  api_client: false
+- language: php
+  registry: packagist
+  name: lendable/message
+  url: https://packagist.org/packages/lendable/message
+  install: composer require lendable/message
+  description: Fundamental building blocks for message based systems
+  downloads_total: 99999
+  official: true
+  api_client: false
+- language: php
+  registry: packagist
+  name: lendable/name-parser
+  url: https://packagist.org/packages/lendable/name-parser
+  install: composer require lendable/name-parser
+  description: PHP library for parsing a string containing a full name into its parts
+  downloads_total: 6763
+  official: true
+  api_client: false
+- language: php
+  registry: packagist
+  name: lendable/dvla-vehicle-enquiry-api-client
+  url: https://packagist.org/packages/lendable/dvla-vehicle-enquiry-api-client
+  install: composer require lendable/dvla-vehicle-enquiry-api-client
+  description: API client for the DVLA's Vehicle Enquiry Service API (third-party API, not Lendable's)
+  downloads_total: 53957
+  official: true
+  api_client: false
+  abandoned: true
+- language: php
+  registry: packagist
+  name: lendable/datadog-stubs
+  url: https://packagist.org/packages/lendable/datadog-stubs
+  install: composer require lendable/datadog-stubs
+  description: Stubs for DataDog's C API for static analysis and IDE support
+  downloads_total: 125308
+  official: true
+  api_client: false
+  abandoned: true
+- language: php
+  registry: packagist
+  name: lendable/symfony-messenger-polyfill
+  url: https://packagist.org/packages/lendable/symfony-messenger-polyfill
+  install: composer require lendable/symfony-messenger-polyfill
+  description: Use Symfony Messenger v4.2 with older Symfony versions
+  downloads_total: 23733
+  official: true
+  api_client: false
+  abandoned: true
+- language: php
+  registry: packagist
+  name: lendable/visitor-tracking-bundle
+  url: https://packagist.org/packages/lendable/visitor-tracking-bundle
+  install: composer require lendable/visitor-tracking-bundle
+  description: Visitor tracking bundle
+  downloads_total: 18605
+  official: true
+  api_client: false
+  abandoned: true
+- language: php
+  registry: packagist
+  name: lendable/doctrine-extensions-bundle
+  url: https://packagist.org/packages/lendable/doctrine-extensions-bundle
+  install: composer require lendable/doctrine-extensions-bundle
+  description: Extensions to how Doctrine is integrated with Symfony
+  downloads_total: 12944
+  official: true
+  api_client: false
+  abandoned: true
+- language: php
+  registry: packagist
+  name: lendable/form-error-log-bundle
+  url: https://packagist.org/packages/lendable/form-error-log-bundle
+  install: composer require lendable/form-error-log-bundle
+  description: Log form errors
+  downloads_total: 6650
+  official: true
+  api_client: false
+  abandoned: true
+- language: php
+  registry: packagist
+  name: lendable/tag-bundle
+  url: https://packagist.org/packages/lendable/tag-bundle
+  install: composer require lendable/tag-bundle
+  description: Tag entities
+  downloads_total: 5511
+  official: true
+  api_client: false
+  abandoned: true
+- language: php
+  registry: packagist
+  name: lendable/google-map-bundle
+  url: https://packagist.org/packages/lendable/google-map-bundle
+  install: composer require lendable/google-map-bundle
+  description: Google map integration for Symfony
+  downloads_total: 2953
+  official: true
+  api_client: false
+  abandoned: true

@@ -1,0 +1,13 @@
+﻿# lendable.co.uk llms.txt
+
+> Offering fast and transparent loans with flexible rates, while ensuring a user-friendly and secure borrowing experience.
+
+- [Fast and Fair Loans](https://lendable.co.uk): Lendable offers quick, fair loans with transparent rates and a simple application process.
+- [Loan Application](https://lendable.co.uk/account/borrow/quote): Collect user information to provide personalised loan quotes.
+- [Financial Support FAQs](https://lendable.co.uk/frequently-asked-questions): Addressing financial support and loan repayment queries for customers struggling with the cost of living.
+- [Customer Support Contact](https://lendable.co.uk/contact): Provide customer support for loan inquiries and complaints.
+- [User Login Portal](https://lendable.co.uk/login): Facilitates user login for Lendable account access.
+- [Help and Support Resources](https://lendable.co.uk/help-and-support): Provide resources and support for financial, mental health, and other personal challenges.
+- [Simplified Loan Process](https://lendable.co.uk/about): To simplify and expedite the loan application process using technology for a hassle-free customer experience.
+- [Fraud Awareness Tips](https://lendable.co.uk/stay-fraud-aware): Educating users on recognizing and avoiding fraud related to loans and investments.
+- [Lendable Complaints Information](https://lendable.co.uk/complaints): To provide customers with information on how to file complaints with Lendable and the complaint resolution process.

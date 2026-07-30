@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.lendable.co.uk/.well-known/
+host: https://www.lendable.co.uk
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: lendable-security.txt
+  standard: RFC 9116
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: |
+  Lendable publishes an RFC 9116 security.txt with a security@ contact, an expiry
+  date, preferred languages, a hiring link, and a PGP encryption key. No OAuth /
+  OpenID Connect discovery documents are served, consistent with Lendable having
+  no public developer API surface.
+related:
+- path: /llms.txt
+  status: 200
+  file: ../llms/lendable-llms.txt
+- path: /pgp-key.txt
+  status: 200
+  url: https://www.lendable.co.uk/pgp-key.txt
