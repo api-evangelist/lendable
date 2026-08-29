@@ -12,6 +12,17 @@ description: Lendable Ltd is a UK consumer lending fintech founded in 2014 and h
   Lendable publishes no public developer API or developer portal — its public technical
   surface is an RFC 9116 security.txt, an llms.txt, and a set of first-party open source
   PHP/Symfony engineering libraries on Packagist and GitHub.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
